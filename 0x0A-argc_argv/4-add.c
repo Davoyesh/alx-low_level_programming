@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc < 2)
 	{
-		printf("Error: No numbers provided\n");
+		printf("\n");
 		return (1);
 	}
 
@@ -26,12 +26,12 @@ int main(int argc, char *argv[])
 
 		if (num <= 0)
 		{
-			printf("Error: Invalid number: %s\n", argv[i]);
+			printf("%s\n", argv[i]);
 			return (1);
 		}
 		sum += num;
 	}
 
-	printf("Sum: %d\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
