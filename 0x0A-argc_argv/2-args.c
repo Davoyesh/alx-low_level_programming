@@ -12,8 +12,8 @@ int main(int argc, char *argv[])
 {
 	int i;
 
-	printf("Number of arguments: %d\n", argc - 1);
-	printf("Arguments received:\n");
+	printf("%d\n", argc - 1);
+	printf("\n");
 
 	for (i = 1; i < argc; i++)
 	{
