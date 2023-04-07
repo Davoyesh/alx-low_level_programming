@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("Usage: %s <num1> <num2>\n", argv[0]);
+		printf("%s <num1> <num2>\n", argv[0]);
 		return (1);
 	}
 
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 
 	result = num1 * num2;
 
-	printf("Multiplication result: %d\n", result);
+	printf("%d\n", result);
 
 	return (0);
 }
