@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	/*Cast argv to void to avoid unused parameter warnings*/
 	(void)argv;
-	printf("Number of arguments: %d\n", argc - 1);
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
